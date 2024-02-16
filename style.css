@@ -1,0 +1,98 @@
+/* Estilo para o corpo da página */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  /* Estilo para o cabeçalho */
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 36px;
+    color: #333;
+  }
+  
+  /* Estilo para o formulário */
+  form {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  form input[type="text"],
+  form input[type="tel"],
+  form input[type="email"],
+  form input[type="url"] {
+    width: calc(100% - 24px);
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #555;
+    transition: border-color 0.3s ease;
+  }
+  
+  form input[type="text"]:focus,
+  form input[type="tel"]:focus,
+  form input[type="email"]:focus,
+  form input[type="url"]:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .botoes button {
+    margin: 0 10px; /* Adiciona margem entre os botões */
+  }
+  
+  form button[type="submit"],
+  form button[type="reset"] {
+    padding: 12px 24px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #007bff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button[type="submit"]:hover,
+  form button[type="reset"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilo para o rodapé */
+  footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: rgba(0, 123, 255, 0.8);
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .rodape-conteudo {
+    opacity: 1; /* Remove a transparência */
+  }
+  
